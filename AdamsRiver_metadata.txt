@@ -1,0 +1,28 @@
+# Metadata for 'Links between fluctuations in sockeye salmon abundance and riparian forest productivity identified by remote sensing'
+
+
+VARIABLE		                            	DESCRIPTION
+plot.id                                   Plot ID
+block                                     Block ID (2 plots in each block)
+NDVI_year                                 Year that Landsat data was collected (in summer dataframe)
+NuSEDS_survey_year                        Year that salmon abundance data was collected (in summer dataframe)
+year                                      Year that both Landsat and salmon data were collected (in fall dataframe)                                
+growing_season_mean_NDVI                  Mean NDVI from July - September of each NDVI_year 
+fall_mean_NDVI                            Mean NDVI from September - November of each year
+sockeye_abundance                         Number of sockeye salmon recorded each year at the lower Adams River by NuSEDS 
+combined_salmon_abundance                 Combined numbers of all salmon species recorded each year at the lower Adams River by NuSEDS
+pulse_year                                Binary variable representing the presence or absence of a dominant sockeye cohort year (yes/no)
+summer_mean_temp                          Mean daily temperature between July and September
+mean_fall_temp                            Mean daily temperature between September and November                        
+summer_total_precip                       Total precipitation between July and September
+total_fall_precip                         Total precipitation September and November
+distance_from_bank                        Binary variable representing distance from the riverbank (close - within 30 metres / far - 95 to 125 metres)
+elevation_change                          Elevation change (metres) from Adams River to the centre of each plot
+metres_downstream                         Metres downstream, measured as distance along the river from Adams Lake
+satellite                                 Which satellite collected NDVI data (Landsat 5, Landsat 7)
+sockeye_abundance_scaled                  sockeye_abundance, standardized for modelling and predictions
+combined_salmon_abundance_scaled          combined_salmon_abundance, standardized for modelling and predictions
+summer_mean_temp_scaled                   summer_mean_temp, standardized for modelling and predictions
+summer_total_precip_scaled                summer_total_precip_scaled, standardized for modelling and predictions
+elevation_change_scaled                   elevation_change_scaled, standardized for modelling and predictions
+metres_downstream_scaled                  metres_downstream_scaled, standardized for modelling and predictions
